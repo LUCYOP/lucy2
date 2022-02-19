@@ -84,7 +84,7 @@ PM_START_TEXT = """
 *Hello {} !*
 💞 Hey I am Lucy : An anime - Themed advanced telegram Group management Bot with lots of cool features.
 
-Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/cd5e959010b42902f3863.jpg)\nSo What are you Waiting For?\n Add Me To Ur chat and start using me.
+Bot to help you to Manage & Protect Your Groups.[ㅤ](https://telegra.ph/file/e3014546acdcc2a124448.jpg)\nSo What are you Waiting For?\n Add Me To Ur chat and start using me.
 
 """
 
@@ -97,8 +97,8 @@ buttons = [
         InlineKeyboardButton(text="ʙᴀꜱɪᴄ ɢᴜɪᴅᴇ ", callback_data="emiko_"),
      ], 
      [  
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/thanosbot_chats"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/thanosbot_chats"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ⚒️", url="https://t.me/crazyzone9"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/lucysuppor"),
     ], 
 
     [
@@ -110,7 +110,7 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/e13ca872cbb0a99046ebb.jpg"
+EMI_IMG = "https://telegra.ph/file/e3014546acdcc2a124448.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @lucyhelp \
@@ -378,11 +378,11 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Commands 🏓", callback_data="help_back"),
                  ],
                  [
-                    InlineKeyboardButton(text="Support ⚒️", callback_data="emiko_support"),
-                    InlineKeyboardButton(text="Developers 🎁", callback_data="emiko_credit"),
+                    InlineKeyboardButton(text="Support ⚒️", callback_data="crazyzone9"),
+                    InlineKeyboardButton(text="Developers 🎁", callback_data="lucysuppor"),
                  ],
                  [
-                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/KASHYAP_IS_PRO"),
+                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/prkboltipublic"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -430,8 +430,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/thanosbot_chats"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/thanosbot_chats"),
+                    InlineKeyboardButton(text="Support", url="t.me/crazyzone9"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/lucysuppor"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -450,8 +450,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="RISHABH", url="t.me/Mafiarishabh"),
-                    InlineKeyboardButton(text="KASHYAP", url="t.me/KASHYAP_IS_PRO"),
+                    InlineKeyboardButton(text="P R K", url="t.me/prkboltipublic"),
+                    InlineKeyboardButton(text="VENOM OP", url="t.me/VENOMxCRAZY"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),

@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Developers 🎁", callback_data="lucysuppor"),
                  ],
                  [
-                    InlineKeyboardButton(text="Donate 💝", url=f"t.me/prkboltipublic"),
+                    InlineKeyboardButton(text="CHAT-GROUP", url=f"t.me/pagal_pantii"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),

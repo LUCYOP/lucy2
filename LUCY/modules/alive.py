@@ -15,7 +15,7 @@ PHOTO = "https://telegra.ph/file/70657821f00fc1fb8e539.jpg"
 async def awake(event):
   TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm lucy bot.** \n\n"
   TEXT += "💞 **LUCY IS ALIVE** \n\n"
-  TEXT += f"💞 **Owner : [RISHABH](https://t.me/Mafiarishabh)** \n\n"
+  TEXT += f"💞 **Owner : [ABHIJEET](https://t.me/LUCY_OWNER)** \n\n"
   TEXT += f"💞 **Library Version :** `{telever}` \n\n"
   TEXT += f"💞 **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"💞 **Pyrogram Version :** `{pyrover}` \n\n"
